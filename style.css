@@ -21,3 +21,59 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+:root {
+  --color-White: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+}
+
+.page {
+  background-color: var(--color-slate-300);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: var(--color-White);
+  width: 32rem;
+  height: 50rem;
+  padding: 1.6rem;
+  border-radius: 2rem;
+}
+
+.image-wrappe {
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.card__title {
+  font-size: 2.2rem;
+  color: var(--color-slate-900);
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.card__text {
+  font-size: 1.5rem;
+  color: var(--color-slate-500);
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
