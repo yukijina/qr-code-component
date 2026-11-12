@@ -40,17 +40,15 @@ body {
 
 .card {
   background-color: var(--color-White);
-  width: 32rem;
-  height: 50rem;
+  max-width: 32rem;
+  max-height: 50rem;
   padding: 1.6rem;
   border-radius: 2rem;
 }
 
-.image-wrappe {
-}
-
 .card__image {
   width: 100%;
+  margin: 0 auto;
   border-radius: 2rem;
   margin-bottom: 2.4rem;
 }
