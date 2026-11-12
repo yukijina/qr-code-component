@@ -16,13 +16,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-[Design preview for the QR code component coding challenge](./screenshot.png)
+![Design preview for the QR code component coding challenge](./screenshot.png)
 
 ### Links
 
@@ -59,7 +57,7 @@ I used GitHub Copilot to review my HTML and CSS and to explain layout and sizing
 
 ### Author
 
-- GitHub: [@ukijina](https://github.com/yukijina)
+- GitHub: [@yukijina](https://github.com/yukijina)
 
 ### Acknowledgments
 
